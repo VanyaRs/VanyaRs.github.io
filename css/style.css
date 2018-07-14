@@ -176,21 +176,19 @@ body{
 }
 #message{
   background-color: #2d2d2d;
-  margin-top: 40px;
-  padding-top: 20px;
-  height: 300px;
   color: white;
   text-align: center;
   font-size: 30px;
   font-family: bold;
   letter-spacing: 2px;
 }
+#message h2{
+  padding-top: 20px;
+}
 #message .row{
   margin-top: 0;
-  padding-top: 10px;
 }
 .comm{
-  padding-top: 28px;
   color: white;
   font-size: 20px;
   text-align: center;
@@ -201,6 +199,10 @@ body{
 .numb2{
   padding-top: 7px;
 }
+.forms{
+  padding-top: 15px;
+}
+
 
 
 

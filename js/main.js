@@ -10,21 +10,17 @@ $(document).ready(function () {
 })
 $(document).ready(function() {
 
-	//E-mail Ajax Send
-	$("form").submit(function() { //Change
-		var th = $(this);
+	$("#form").submit(function() {
 		$.ajax({
 			type: "POST",
-			url: "mail.php", //Change
-			data: th.serialize()
+			url: "mail.php",
+			data: $(this).serialize()
 		}).done(function() {
-			alert("Thank you!");
-			setTimeout(function() {
-				// Done Functions
-				th.trigger("reset");
-			}, 1000);
+			$(this).find("input").val("");
+			alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
+			$("#form").trigger("reset");
 		});
 		return false;
 	});
-
+	
 });
