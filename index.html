@@ -73,21 +73,13 @@
 						<div class="numb1">+38(093)200-49-53</div>
 						<div class="numb2">+38(097)057-67-14</div>
 					</div>
-					<form role="form" class="forms col-md-9">
- <div class="form-group col-md-5">
-    <input  name="name" type="text"  class="form-control" placeholder="Имя" required />
- </div>
- <div class="form-group col-md-5">
-   
-    <input name="email" type="email" class="form-control" placeholder="E-mail" required/> 
- </div>
- <div class="form-group col-md-5">
-   <textarea name="comment" class="form-control" placeholder="Сообщение" required></textarea>
- </div>
- <div class="form-group col-md-2" >
-    <input type="submit" class="btn btn-info" value="Отправить" />
- </div>
-</form>
+    <form action="submit.php" method="POST">
+    <input name="email" placeholder="Email"><br>
+    <input name="name" placeholder="Имя"><br>
+    <input name="phone" placeholder="Телефон"><br>
+    <textarea name="message" placeholder="Сообщение"></textarea><br>
+    <input type="submit" value="Отправить сообщение">
+  </form>
 				</div>
 			</div>
 		</div>
