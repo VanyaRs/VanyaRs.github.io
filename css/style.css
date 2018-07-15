@@ -130,7 +130,7 @@ body{
   opacity: 1;
   right: 0;
 }
-.hbutton {
+.button {
   color: #2d2d2d;
   text-align: center;
   display: inline-block;
@@ -149,14 +149,14 @@ body{
   margin-top: 30px;
 }
 
-.hbutton span {
+.button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.hbutton span:after {
+.button span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -166,11 +166,11 @@ body{
   transition: 0.5s;
 }
 
-.hbutton:hover span {
+.button:hover span {
   padding-right: 25px;
 }
 
-.hbutton:hover span:after {
+.button:hover span:after {
   opacity: 1;
   right: 0;
 }
@@ -219,7 +219,7 @@ body{
   left: 0;
 }
 #message{
-  margin-top: 20px;
+  margin-top: 30px;
   background: url(../img/ms2.jpg) no-repeat;
   height: 500px;
   color: white;
