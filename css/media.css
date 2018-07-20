@@ -1,0 +1,256 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	#headerwrap h1{
+    font-size: 140px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	input{
+	width: 250px;
+	}
+    textarea{
+    width: 250px;
+    }
+    .formhead{
+    font-size: 15px;
+    }
+   .callback{
+    padding: 22% 20%;
+    }
+    .desc{
+    left: 70%;
+    background-color: rgba(0,0,0,.5);
+    padding-top: 120px;
+    padding-right: 360px;
+    }
+    .socials{
+    padding-top: 20px;
+    width: 40%;
+    }
+    .socials li{
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+}
+    .infome{
+    padding-left: 0;
+    margin-left: 20px;
+    }
+    .info{
+    	padding-left: 20px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.scrollup{
+    float: right;
+    right: 0;
+    }   
+    #headerwrap{
+    background: url(../img/headermob.jpg) no-repeat center;
+    width: 100%;
+    height: 100%;
+    margin-top: -12px;
+    height: 420px;
+    }
+    #headerwrap h2 {
+    font-size: 20px;
+    font-weight: bold;
+    }
+     #headerwrap h1{
+    font-size: 28px;
+    font-weight: bold;
+    }
+     #headerwrap p{
+    font-size: 17px;
+    }
+    .logowrap{
+    width: 190px;
+    height: 60px;
+    }
+    #content h1{
+    font-size: 22px;
+    margin-top: 0;
+    }
+    .library a{
+    display: inline-block;
+    overflow: hidden; width: 100%;
+    position: relative;
+    }
+    .desc {
+    left: 70%;
+    background-color: rgba(0,0,0,.5);
+    padding-top: 80px;
+    padding-right: 295px;
+    }
+    #message{
+    background: url(../img/ms2.jpg) center;
+    height: 400px;
+    }
+    textarea{
+    width: 240px;        
+    }
+    input{
+    width: 240px;
+    }
+    .backms{
+    margin-left: 0;
+    width: 100%;
+    }
+    .button{
+    width:100px;
+    height: 35px;
+    font-size: 13px;
+    }
+    .button span:after {
+    top: -2px;
+    }
+    #message p{
+    	font-size: 15px;
+    }
+    .formhead{
+    	font-size: 15px;
+    }
+    #hero .slider-holder {
+    height: 300px;
+    }
+     #hero .slider-holder .bg-drop {
+    height: 300px;
+    }
+    #hero .slider-holder .owl-item > div {
+    margin-bottom: 60px;
+    }
+    #hero .slider-holder .controls .arrow#left {
+    left: 7px;
+    }
+    #hero .slider-holder .controls .arrow#right {
+    right: 7px;
+    }    
+    .socials{
+    padding-top: 20px;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    }
+    .socials li{
+    margin-bottom: 8px;
+    margin-right: 14px;
+    }
+    .info{
+    padding-left: 0;
+    }
+    .informe{
+    padding-left: 0;
+    } 
+    .socials li{
+    width: 43px;
+    height: 43px;
+}  
+    }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	#headerwrap{
+	margin-top: -15px;
+	}
+	#headerwrap h1{
+	font-size: 22px;
+	}
+	#headerwrap h2{
+	font-size: 16px;
+	}
+    .scrollup{
+    left: 0;
+    width: 40px;
+    }
+    .logowrap{
+    width: 140px;
+    height: 40px;
+    }
+    input{
+    width: 200px;
+    }
+    textarea{
+    width: 200px;
+    }
+    .formhead{
+    font-size: 12px;
+    }
+    #message p{
+    font-size: 10px;
+    }
+    .desc {
+    left: 70%;
+    background-color: rgba(0,0,0,.4);
+    padding-top: 50px;
+    padding-right: 70%;
+    font-size: 14px;
+    }
+    .wbutton {
+    width: 100px;
+    height: 33px;
+    font-size: 9px;
+    }
+    .button{
+    width:80px;
+    height: 25px;
+    font-size: 10px;
+    padding-top: 6px;
+    }
+    .button span:after {
+    top: -1px;
+    }
+    .infome{
+    padding-left: 0;
+    margin-left: 20px;
+    margin-top: 0;
+    }
+}
+@media only screen and (max-width : 375px){
+	.desc {
+    left: 70%;
+    background-color: rgba(0,0,0,.4);
+    padding-top: 80px;
+    padding-right: 69%;
+    font-size: 14px;
+    }
+}
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
