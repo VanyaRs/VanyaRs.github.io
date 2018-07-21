@@ -2,23 +2,60 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	#headerwrap h1{
-    font-size: 140px;
-	}
+	.desc{
+    left: 70%;
+    background-color: rgba(0,0,0,.5);
+    padding-top: 120px;
+    padding-right: 360px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    textarea{
+    width: 250px;
+    }
+    input{
+    width: 250px;
+    }
+    .formhead{
+    font-size: 15px;
+    }
+    #message{
+    height: 410px;
+    }
+    #hero .slider-holder .bg-drop {
+    height: 370px;
+    }
+    .infome{
+    padding-left: 0;
+    margin-left: 10px;
+    }
+    .info{
+    padding-left: 10px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	#headerwrap h1{
+    font-size: 25px;
+	}
+	#headerwrap h2{
+	font-size: 20px;
+	}
+	#headerwrap p{
+	font-size: 18px;
+	}
+	.logowrap{
+    width: 190px;
+    height: 60px;
+	}
 	input{
-	width: 250px;
+	width: 200px;
 	}
     textarea{
-    width: 250px;
+    width: 200px;
     }
     .formhead{
     font-size: 15px;
@@ -34,21 +71,33 @@
     }
     .socials{
     padding-top: 20px;
-    width: 40%;
+    width: 30%;
     }
     .socials li{
     width: 40px;
     height: 40px;
     border-radius: 12px;
 }
+    .contact{
+    padding: 0;
+    padding-right: 10px;
+    }
     .infome{
     padding-left: 0;
-    margin-left: 20px;
+    margin-left: 0px;
+    padding-right: 10px;
     }
     .info{
-    	padding-left: 20px;
+    padding-left: 0;
+    margin-left: 0px;
     }
-
+    #hero .slider-holder .bg-drop {
+    height: 500px;
+    }
+    #hero .slider-holder .owl-item > div {
+    margin-bottom: 60px;
+    }
+    
 }
 
 /* Extra Small Devices, Phones */
@@ -123,10 +172,10 @@
     	font-size: 15px;
     }
     #hero .slider-holder {
-    height: 300px;
+    height: 250px;
     }
-     #hero .slider-holder .bg-drop {
-    height: 300px;
+    #hero .slider-holder .bg-drop {
+    height: 250px;
     }
     #hero .slider-holder .owl-item > div {
     margin-bottom: 60px;
@@ -149,14 +198,23 @@
     }
     .info{
     padding-left: 0;
+    padding-right: 30px;
     }
     .informe{
     padding-left: 0;
+    right: 0;
     } 
     .socials li{
     width: 43px;
     height: 43px;
-}  
+    }
+    .contact{
+    float: left;
+    margin-left: 40px;
+    }  
+    .contact h4{
+     padding-top: 10px;
+    }
     }
 
 /* Custom, iPhone Retina */
@@ -176,7 +234,7 @@
     }
     .logowrap{
     width: 140px;
-    height: 40px;
+    height: 50px;
     }
     input{
     width: 200px;
@@ -212,10 +270,23 @@
     top: -1px;
     }
     .infome{
-    padding-left: 0;
-    margin-left: 20px;
-    margin-top: 0;
+    margin-top: 20px;
+    font-size: 13px;
+    padding-right: 0;
     }
+    .infome h4{
+    padding-top: 10px;
+    }
+    .info{
+    right: 0;
+    padding-right: 10px;
+    
+    }
+    .contact{
+    padding-top: 10px;
+    padding-right: 0;
+    }
+    
 }
 @media only screen and (max-width : 375px){
 	.desc {
