@@ -92,7 +92,10 @@
     margin-left: 0px;
     }
     #hero .slider-holder .bg-drop {
-    height: 500px;
+    height: 380px;
+    }
+    #hero .slider-holder {
+    height: 380px;
     }
     #hero .slider-holder .owl-item > div {
     margin-bottom: 60px;
