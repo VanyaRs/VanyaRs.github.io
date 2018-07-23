@@ -8,12 +8,17 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
-
 	<title>Photograph</title>
+	<link rel="icon" href="img/icon.png" type="images/png">
+    <link rel="shortcut icon" href="img/icon.png" type= "images/png">
 </head>
 <body>
+	<div class="loaderArea">
+    <div class="loader"></div>
+    </div>
 	<div class="navbar navbar-inverse navbar-fixed-top" id="header">
 		<div class="container">
 			<div class="navbar-header">
@@ -22,19 +27,19 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="#"><img src="img/EY.png" class="logowrap" alt=""  height="50%" width="50%"></a>
+				<a href="index.html"><img src="img/EY.png" class="logowrap" alt=""  height="50%" width="50%"></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Gallery</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
 					<li><a href="#">About me</a></li>
-					<li><a href="#">Contacts</a></li>
+					<li><a href="contact.html">Contacts</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
-	<div id="headerwrap">
+	<div class="headerwrap wow fadeInDown">
 		<div class="backwrap">
 		<div class="container">
 			<div class="row centered">
@@ -57,15 +62,15 @@
 			<div class="row centered">
 				<h1>Recent work</h1>
 					<div class="library">
-					<a href="img/lab11.jpg" class="item"><span class="desc"><i class="fa fa-diamond" aria-hidden="true"></i><br>Weddings</span><img src="img/lab11.jpg" alt=""></a>
-					<a href="img/lib71.jpg" class="item"><span class="desc"><i class="fa fa-area-chart" aria-hidden="true"></i><br>Portrait</span><img src="img/lib71.jpg" alt=""></a>
-					<a href="img/lib31.jpg" class="item"><span class="desc"><i class="fa fa-heart-o" aria-hidden="true"></i><br>Love stories</span><img src="img/lib31.jpg" alt=""></a>
-					<a href="img/lib41.jpg" class="item"><span class="desc"><i class="fa fa-camera" aria-hidden="true"></i><br>Photo</span><img src="img/lib41.jpg" alt=""></a>
-					<a href="img/lib51.jpg" class="item"><span class="desc"><i class="fa fa-pagelines" aria-hidden="true"></i><br>Family</span><img src="img/lib51.jpg" alt=""></a>
-					<a href="img/lib61.jpg" class="item"><span class="desc"><i class="fa fa-circle-o-notch" aria-hidden="true"></i><br>Creativity</span><img src="img/lib61.jpg" alt=""></a>
+					<a href="img/lab11.jpg" class="item wow fadeInLeft"><span class="desc"><i class="fa fa-diamond" aria-hidden="true"></i><br>Weddings</span><img src="img/lab11.jpg" alt=""></a>
+					<a href="img/lib71.jpg" class="item wow fadeInRight"><span class="desc"><i class="fa fa-area-chart" aria-hidden="true"></i><br>Portrait</span><img src="img/lib71.jpg" alt=""></a>
+					<a href="img/lib31.jpg" class="item wow fadeInLeft"><span class="desc"><i class="fa fa-heart-o" aria-hidden="true"></i><br>Love stories</span><img src="img/lib31.jpg" alt=""></a>
+					<a href="img/lib41.jpg" class="item wow fadeInRight"><span class="desc"><i class="fa fa-camera" aria-hidden="true"></i><br>Photo</span><img src="img/lib41.jpg" alt=""></a>
+					<a href="img/lib51.jpg" class="item wow fadeInLeft"><span class="desc"><i class="fa fa-pagelines" aria-hidden="true"></i><br>Family</span><img src="img/lib51.jpg" alt=""></a>
+					<a href="img/lib61.jpg" class="item wow fadeInRight"><span class="desc"><i class="fa fa-circle-o-notch" aria-hidden="true"></i><br>Creativity</span><img src="img/lib61.jpg" alt=""></a>
 
 				</div>
-				<button class="wbutton" style="vertical-align:middle"><span> more</span></button>
+				<button  class="wbutton" style="vertical-align:middle"onclick="window.location.href='portfolio.html'"><span > more</span></button>
 			</div>
 		</div>
 	</div>
@@ -83,7 +88,7 @@
 		            <input type="text" name="Name" placeholder="You name..." required><br>
 		            <input type="text" name="mail" placeholder="You E-mail..." required><br>
 		            <textarea type="text" name="text" placeholder="You message..." rows="2" cols="22"></textarea>  <br>
-		            <button class="button" id="send"><span>Send</span></button
+		            <button class="button" id="send"><span>Send</span></button>
 	              </form>
 	              
 	              </div>
@@ -94,12 +99,12 @@
       <div class="slider-holder">
         <div class="bg-drop"></div>
         <div class="owl-carousel">
-          <div style="background-image: url('img/lib31.jpg');"></div>
-          <div style="background-image: url('img/lib21.jpg');"></div>
-          <div style="background-image: url('img/lib41.jpg');"></div>
-          <div style="background-image: url('img/lib51.jpg');"></div>
-          <div style="background-image: url('img/lib61.jpg');"></div>
-          <div style="background-image: url('img/lib71.jpg');"></div>
+          <div style="background-image: url('img/lib31.jpg');" ></div>
+          <div style="background-image: url('img/lib21.jpg');" ></div>
+          <div style="background-image: url('img/lib41.jpg');" ></div>
+          <div style="background-image: url('img/lib51.jpg');" ></div>
+          <div style="background-image: url('img/lib61.jpg');" ></div>
+          <div style="background-image: url('img/lib71.jpg');" ></div>
         </div>
         <div class="controls">
           <div class="arrow" id="left"><img src="img/arrow-left.png"></div>
@@ -122,9 +127,9 @@
 					<ul class="info">
 						<h4>Pages</h4>
 					<li><a href="#header">Home</a></li>
-					<li><a href="#">Gallery</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
 					<li><a href="#">About me</a></li>
-					<li><a href="#">Contacts</a></li>
+					<li><a href="contact.html">Contacts</a></li>
 				</ul>
 				<ul class="infome">
 						<h4>Servises</h4>
@@ -154,6 +159,10 @@
     <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="owlcarousel/owl.carousel.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
 </body>
 <a href="#" class="scrollup">Наверх</a>
 </html>

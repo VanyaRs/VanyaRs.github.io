@@ -1,3 +1,4 @@
+<-------------------Home---------------------->
 body{
 	background-color: white;
 	-webkit-font-smoothing: antialiased;
@@ -28,6 +29,65 @@ body{
    text-indent:-9999px;
    z-index: 100;
 }   
+.loaderArea {
+  background: linear-gradient(90deg, #2d2d2d 10%, #fff 90%);
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right:0;
+  bottom:0;
+  z-index: 100000;
+}
+.loader {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -20px;
+}
+ 
+.loader:before,
+.loader:after {
+  content: "";
+  height: 40px;
+  width: 40px;
+  border: 8px solid rgba(255,255,255,.5);
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+}
+ 
+.loader:before {
+  animation: animate 2s infinite linear;
+}
+ 
+@keyframes animate {
+  0% {
+    transform: rotate(0) skew(0);
+  }
+   
+  100% {
+    transform: rotate(180deg) skew(360deg);
+  }
+}
+ 
+ 
+.loader:after {
+  animation: animate2 2s infinite linear;
+}
+ 
+@keyframes animate2 {
+  0% {
+    transform: rotate(0) skew(0);
+  }
+   
+  100% {
+    transform: rotate(-180deg) skew(-360deg);
+  }
+}
   .centered{
     text-align: center;
   }
@@ -40,6 +100,7 @@ body{
   .navbar-inverse{
   	background: #2d2d2d;
   	border-color: #2d2d2d;
+
   }
   .navbar-collapse{
     text-align: center;
@@ -61,7 +122,7 @@ body{
     width: 100%;
     height: 100%;
   }
-  #headerwrap{
+  .headerwrap{
     background: url(../img/header.jpg) no-repeat;
     margin-top: -10px;
     padding-top: 20px;
@@ -78,7 +139,7 @@ body{
     -o-background-size: cover;
     background-size: cover;
   }
-  #headerwrap h1{
+  .headerwrap h1{
     color: white;
     text-transform: uppercase;
     font-family: bold;
@@ -86,13 +147,13 @@ body{
     font-size: 50px;
     letter-spacing: 10px;
   }
-  #headerwrap h2{
+  .headerwrap h2{
     color: white;
     text-transform: uppercase;
     font-family: bold;
     letter-spacing: 1px;
   }
-  #headerwrap p{
+  .headerwrap p{
     color: white;
     padding-top: 25px;
     font-size: 23px;
@@ -263,7 +324,7 @@ body{
 textarea {
   color: #fff;
   resize: none;
-  width: 350px;
+  width: 320px;
   margin-top: 10px;
   font-size: 16px;
   background-color: transparent;
@@ -322,7 +383,7 @@ textarea[type="text"]::-ms-input-placeholder {
     height: 100%;
 }
 .callback{
-  padding: 15% 20%;
+  padding: 100px 150px;
 }
 .succes{
   position: absolute;
@@ -440,7 +501,7 @@ textarea[type="text"]::-ms-input-placeholder {
       #hero .slider-holder .owl-item > div {
         height: 100%;
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 70px;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat; }
@@ -595,8 +656,6 @@ textarea[type="text"]::-ms-input-placeholder {
   letter-spacing: 1px;
   margin: 0;
 }
-
-
 .mfp-fade.mfp-bg {
   opacity: 0;
 
@@ -623,3 +682,208 @@ textarea[type="text"]::-ms-input-placeholder {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
+<-------------------Gallery------------------->
+body{
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 75px;
+}
+h1 h2 h3 h4 h5 h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+}
+.header_portfolio{
+  margin-top: 110px;
+  font-family: bold;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: #2d2d2d;
+}
+#portfolio{
+  width: 100%;
+  height: 100%;
+}
+.photowedding{
+  background: url(../img/portfolio1.jpg);
+  float: left;
+  width: 340px;
+  height: 440px;
+  background-size: cover;
+}
+.text_photoleft{
+  width: 430px;
+  float: left;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.text_photoleft h2{
+  font-size: 23px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.text_photoleft p{
+  padding-top: 10px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: justify; 
+  line-height: 23px;
+}
+.text_photoleft hr{
+  width: 420px;
+  margin-left: 5px;
+}
+.button_m{
+  text-align: center;
+  display: inline-block;
+  color: #2d2d2d;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.4s;
+  margin-top: 15px;
+  text-transform: uppercase;
+} 
+a.button_m:hover { 
+  background: #2d2d2d;
+  text-decoration: none;
+  border-color: #2d2d2d;
+  color: white;
+}
+.photoportrait{
+  background: url(../img/portfolio2.jpg);
+  background-size: cover;
+  width: 340px;
+  height: 440px;
+  float: right;
+}
+.text_photoright{
+  text-align: center;
+  width: 430px;
+  float: right;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+.text_photoright h2{
+  font-size: 23px;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+.text_photoright p{
+  padding-top: 10px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: justify; 
+  line-height: 23px;
+  float: right;
+}
+.text_photoright hr{
+  width: 420px;
+  margin-left: 5px;
+}
+.photofamily{
+  background: url(../img/portfolio4.jpg);
+  background-size: cover;
+  width: 340px;
+  height: 400px;
+  float: left;
+}
+.photolovestory{
+  background: url(../img/portfolio3.jpg);
+  background-size: cover;
+  width: 340px;
+  height: 400px;
+  float: right;
+}
+.photobw{
+  background: url(../img/portfolio6.jpg);
+  background-size: cover;
+  width: 340px;
+  height: 400px;
+  float: left;
+  margin-bottom: 40px;
+}
+iframe{
+  margin-top: 60px;
+  width: 100%;
+}
+.callbackcontact{
+  text-align: center;
+  letter-spacing: 2px;
+}
+.myphoto{
+  background: url(../img/myphoto.jpg);
+  width: 350px;
+  height: 400px;
+  background-size: cover;
+  margin-top: 40px;
+  margin-left: 150px;
+  float: left;
+  margin-bottom: 60px;
+}
+.myinfo{
+  float: left;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.myinfo p{
+  width: 300px;
+  font-size: 25px;
+}
+.contactnumb1{
+width: 300px;
+font-size: 20px;
+}
+.contactnumb2{ 
+width: 300px;
+font-size: 20px;
+}
+.socialcontact{
+  padding-top: 30px;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  float: left;
+  padding-left: 15px;
+}
+.socialcontact li{
+  float: left;
+  width: 58px;
+  height: 58px;
+  border: 3px solid #2d2d2d;
+  margin-right: 20px;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.socialcontact li: last-child{
+  margin-right: 0;
+}
+.socialcontact li .fa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #2d2d2d;
+  font-size: 20px;
+  transition: all 0.3s linear;
+}
+
+.socialcontact li:hover{
+  background: #2d2d2d;
+  box-shadow: 0 0 30px 3px #2d2d2d;
+}
+.socialcontact li:hover .fa{
+  color: #fff;
+
+}
+

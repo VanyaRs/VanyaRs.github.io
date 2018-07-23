@@ -38,13 +38,13 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	#headerwrap h1{
+	.headerwrap h1{
     font-size: 25px;
 	}
-	#headerwrap h2{
+	.headerwrap h2{
 	font-size: 20px;
 	}
-	#headerwrap p{
+	.headerwrap p{
 	font-size: 18px;
 	}
 	.logowrap{
@@ -58,7 +58,7 @@
     width: 200px;
     }
     .formhead{
-    font-size: 15px;
+    font-size: 14px;
     }
    .callback{
     padding: 22% 20%;
@@ -109,22 +109,22 @@
     float: right;
     right: 0;
     }   
-    #headerwrap{
+    .headerwrap{
     background: url(../img/headermob.jpg) no-repeat center;
     width: 100%;
     height: 100%;
     margin-top: -12px;
     height: 420px;
     }
-    #headerwrap h2 {
+    .headerwrap h2 {
     font-size: 20px;
     font-weight: bold;
     }
-     #headerwrap h1{
+     .headerwrap h1{
     font-size: 28px;
     font-weight: bold;
     }
-     #headerwrap p{
+     .headerwrap p{
     font-size: 17px;
     }
     .logowrap{
@@ -169,10 +169,10 @@
     top: -2px;
     }
     #message p{
-    	font-size: 15px;
+    font-size: 15px;
     }
     .formhead{
-    	font-size: 15px;
+    font-size: 16px;
     }
     #hero .slider-holder {
     height: 250px;
@@ -222,13 +222,13 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-	#headerwrap{
+	.headerwrap{
 	margin-top: -15px;
 	}
-	#headerwrap h1{
+	.headerwrap h1{
 	font-size: 22px;
 	}
-	#headerwrap h2{
+	.headerwrap h2{
 	font-size: 16px;
 	}
     .scrollup{
@@ -289,7 +289,6 @@
     padding-top: 10px;
     padding-right: 0;
     }
-    
 }
 @media only screen and (max-width : 375px){
 	.desc {
@@ -318,16 +317,66 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
+@media only screen and (min-width : 1200px) {
+    #portfolio .container{
+    width: 70%;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+    .headerwrap{
+    margin-top: 60px;
+    }
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
+@media only screen and (min-width : 1400px) {
+    #hero .slider-holder {
+    height: 580px;
+    }
+    #hero .slider-holder .bg-drop {
+    height: 580px;
+    }
+    #message{
+    background: url(../img/ms3.jpg) no-repeat;
+    height: 550px;
+    }
+    textarea{
+    margin-top: 20px;
+    width: 370px;
+    }
+    input{
+    margin-top: 20px;
+    width: 370px;
+    }
+    .callback{
+    padding: 100px 200px;
+    }
+    .library a{
+    display: inline-block;
+    overflow: hidden; width: 580px;
+    position: relative;
+    }
+    .socials h4{
+    font-size: 24px;
+    }
+    .info{
+    font-size: 20px;
+    }
+    .infome{
+    font-size: 20px;
+    }
+    .contact{
+    font-size: 20px;
+    }
+    .contact p{
+    font-size: 20px;
+    }
+    .numb1{
+    font-size: 20px;	
+    }
+    .numb2{
+    font-size: 20px;
+    }
 }

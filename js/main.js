@@ -66,7 +66,12 @@ $(document).ready(function () {
  $('.scrollup').fadeOut();
  }
  }); 
- 
+ $(window).on('load', function () {
+    $preloader = $('.loaderArea'),
+      $loader = $preloader.find('.loader');
+    $loader.fadeOut();
+    $preloader.delay(500).fadeOut('slow');
+  });
  $('.scrollup').click(function(){
  $("html, body").animate({ scrollTop: 0 }, 600);
  return false;
