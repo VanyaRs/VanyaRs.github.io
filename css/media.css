@@ -21,7 +21,7 @@
     .formhead{
     font-size: 15px;
     }
-    #message{
+    .message{
     height: 410px;
     }
     #hero .slider-holder .bg-drop {
@@ -146,7 +146,7 @@
     padding-top: 80px;
     padding-right: 295px;
     }
-    #message{
+    .message{
     background: url(../img/ms2.jpg) center;
     height: 400px;
     }
@@ -168,7 +168,7 @@
     .button span:after {
     top: -2px;
     }
-    #message p{
+    .message p{
     font-size: 15px;
     }
     .formhead{
@@ -248,7 +248,7 @@
     .formhead{
     font-size: 12px;
     }
-    #message p{
+    .message p{
     font-size: 10px;
     }
     .desc {
@@ -338,7 +338,7 @@
     #hero .slider-holder .bg-drop {
     height: 580px;
     }
-    #message{
+    .message{
     background: url(../img/ms3.jpg) no-repeat;
     height: 550px;
     }
