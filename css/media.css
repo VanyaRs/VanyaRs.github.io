@@ -35,9 +35,99 @@
     padding-left: 10px;
     }
 }
-
+@media only screen and (max-width : 670px){
+    .animated {
+/*CSS transitions*/
+-o-transition-property: none !important;
+-moz-transition-property: none !important;
+-ms-transition-property: none !important;
+-webkit-transition-property: none !important;
+transition-property: none !important;
+/*CSS transforms*/
+-o-transform: none !important;
+-moz-transform: none !important;
+-ms-transform: none !important;
+-webkit-transform: none !important;
+transform: none !important;
+/*CSS animations*/
+-webkit-animation: none !important;
+-moz-animation: none !important;
+-o-animation: none !important;
+-ms-animation: none !important;
+animation: none !important;
+}
+    .photowedding{
+    width: 300px;
+    height: 440px;
+    }
+    .photoportrait{
+    width: 300px;
+    height: 440px;
+    }
+    .photofamily{
+    width: 300px;
+    height: 440px;
+    }
+    .photolovestory{
+    width: 300px;
+    height: 440px;
+    }
+    .photobw{
+    width: 300px;
+    height: 350px;
+    }
+    .text_photoleft {
+     width: 40%;
+     margin-left: 0;
+     float: left;
+     padding-left: 8px;
+     margin-bottom: 20px;
+     margin-top: 10px;
+    }
+    .text_photoright{
+     width: 40%;
+     margin-right: 0;
+     float: right;
+     padding-right: 8px;
+     margin-bottom: 20px;
+     margin-top: 10px;
+    }
+    .text_photoright hr{
+     width: 98%;
+     margin-left: 3px;
+    }
+    .text_photoleft hr{
+     width: 98%;
+     margin-left: 3px;
+    }
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    .animated {
+/*CSS transitions*/
+-o-transition-property: none !important;
+-moz-transition-property: none !important;
+-ms-transition-property: none !important;
+-webkit-transition-property: none !important;
+transition-property: none !important;
+/*CSS transforms*/
+-o-transform: none !important;
+-moz-transform: none !important;
+-ms-transform: none !important;
+-webkit-transform: none !important;
+transform: none !important;
+/*CSS animations*/
+-webkit-animation: none !important;
+-moz-animation: none !important;
+-o-animation: none !important;
+-ms-animation: none !important;
+animation: none !important;
+}   .loader{
+    display: none;
+    }
+    .loaderArea{
+    display: none;
+    }
 	.headerwrap h1{
     font-size: 25px;
 	}
@@ -100,11 +190,72 @@
     #hero .slider-holder .owl-item > div {
     margin-bottom: 60px;
     }
-    
+    .photowedding{
+    height: 440px;
+    float: left;
+    }
+    .photoportrait{
+    height: 440px;
+    }
+    .photofamily{
+    height: 440px;
+    }
+    .photolovestory{
+    height: 440px;
+    }
+    .photobw{
+    height: 350px;
+    }
+    .text_photoleft {
+     width: 50%;
+     margin-left: 0;
+     padding-left: 30px;
+     margin-bottom: 20px;
+    }
+    .text_photoright{
+     width: 50%;
+     margin-right: 0;
+     padding-right: 30px;
+     margin-bottom: 20px;
+    }
+    .text_photoright hr{
+     width: 98%;
+     margin-left: 3px;
+    }
+    .text_photoleft hr{
+     width: 98%;
+     margin-left: 3px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .animated {
+/*CSS transitions*/
+-o-transition-property: none !important;
+-moz-transition-property: none !important;
+-ms-transition-property: none !important;
+-webkit-transition-property: none !important;
+transition-property: none !important;
+/*CSS transforms*/
+-o-transform: none !important;
+-moz-transform: none !important;
+-ms-transform: none !important;
+-webkit-transform: none !important;
+transform: none !important;
+/*CSS animations*/
+-webkit-animation: none !important;
+-moz-animation: none !important;
+-o-animation: none !important;
+-ms-animation: none !important;
+animation: none !important;
+}
+    .loader{
+    display: none;
+    }
+    .loaderArea{
+    display: none;
+    }
 	.scrollup{
     float: right;
     right: 0;
@@ -218,11 +369,114 @@
     .contact h4{
      padding-top: 13px;
     }
+    .header_portfolio{
+    font-size: 25px;
+    }
+    .photowedding{
+    width: 100%;
+    height: 400px;
+    }
+    .photoportrait{
+    width: 100%;
+    height: 400px;
+    }
+    .photofamily{
+    width: 100%;
+    height: 400px;
+    }
+    .photolovestory{
+    width: 100%;
+    height: 400px;
+    }
+    .photobw{
+    width: 100%;
+    height: 350px;
+    }
+    .text_photoleft {
+     width: 100%;
+     margin-left: 0;
+     padding-left: 5px;
+     padding-right: 5px;
+     margin-bottom: 20px;
+    }
+    .text_photoright{
+     width: 100%;
+     margin-right: 0;
+     padding-left: 5px;
+     padding-right: 5px;
+     margin-bottom: 20px;
+    }
+    .text_photoright hr{
+     width: 98%;
+    }
+    .text_photoleft hr{
+     width: 98%;
+    }
+    .myphoto{
+    width: 100%;
+    margin-left: 0;
+    }
+    .myinfo{
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    width: 100%;
+    }
+    .myinfo p{
+    padding-left: 21% ;
+    }
+    .contactnumb1{
+    padding-left: 21%;
+    } 
+    .contactnumb2{
+    padding-left: 21%;
+    }
+    .socialcontact{
+    margin-left: 18%;
+    width: 280px;
+    }
+    .socialcontact li{
+    width: 38px;
+    height: 38px;
+    border: 2px solid #2d2d2d;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    }
+    .socialcontact li .fa{
+    font-size: 15px;
+}
     }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-	.headerwrap{
+	.animated {
+/*CSS transitions*/
+-o-transition-property: none !important;
+-moz-transition-property: none !important;
+-ms-transition-property: none !important;
+-webkit-transition-property: none !important;
+transition-property: none !important;
+/*CSS transforms*/
+-o-transform: none !important;
+-moz-transform: none !important;
+-ms-transform: none !important;
+-webkit-transform: none !important;
+transform: none !important;
+/*CSS animations*/
+-webkit-animation: none !important;
+-moz-animation: none !important;
+-o-animation: none !important;
+-ms-animation: none !important;
+animation: none !important;
+}   
+    .loader{
+    display: none;
+    }
+    .loaderArea{
+    display: none;
+    }
+    .headerwrap{
 	margin-top: -15px;
 	}
 	.headerwrap h1{
@@ -289,8 +543,90 @@
     padding-top: 10px;
     padding-right: 0;
     }
+    .header_portfolio{
+    font-size: 25px;
+    }
+    .photowedding{
+    width: 100%;
+    height: 350px;
+    }
+    .photoportrait{
+    width: 100%;
+    height: 350px;
+    }
+    .photofamily{
+    width: 100%;
+    height: 350px;
+    }
+    .photolovestory{
+    width: 100%;
+    height: 350px;
+    }
+    .photobw{
+    width: 100%;
+    height: 350px;
+    }
+    .text_photoleft {
+     width: 100%;
+     padding-left: 5px;
+     padding-right: 5px;
+     margin-bottom: 20px;
+     margin-left: 0;
+    }
+    .text_photoright{
+     width: 100%;
+     padding-left: 5px;
+     padding-right: 5px;
+     margin-right: 0;
+     margin-bottom: 20px;
+    }
+    .text_photoright hr{
+    text-align: center;
+     width: 98%;
+    }
+    .text_photoleft hr{
+    text-align: center;
+     width: 98%;
+    }
+    .myphoto{
+    width: 100%;
+    margin-left: 0;
+    }
+    .myinfo{
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    width: 100%;
+    }
+    .myinfo p{
+    padding-left: 20px;
+    }
+    .contactnumb1{
+    padding-left: 20px;
+    } 
+    .contactnumb2{
+    padding-left: 20px;
+    }
+    .socialcontact{
+    margin-left: 40px;
+    width: 280px;
+    }
+    .socialcontact li{
+    width: 38px;
+    height: 38px;
+    border: 2px solid #2d2d2d;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    }
+    .socialcontact li .fa{
+    font-size: 15px;
+}
 }
 @media only screen and (max-width : 375px){
+    .loader{
+    display: none;
+    }
 	.desc {
     left: 70%;
     background-color: rgba(0,0,0,.4);
@@ -308,7 +644,7 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-
+    
 }
 
 /* Extra Small Devices, Phones */
@@ -379,4 +715,89 @@
     .numb2{
     font-size: 20px;
     }
+    .header_portfolio{
+    font-size: 40px;
+    }
+    .button_m{
+    width: 140px;
+    height: 50px;
+    padding-top: 13px;
+    }
+    .photowedding{
+    width:420px;
+    height: 500px;
+    }
+    .text_photoleft{
+    padding-top: 30px;
+    }
+    .text_photoright{
+    padding-top: 30px;
+    }
+    .text_photoleft{
+    width: 560px;
+    float: left;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    }
+    .text_photoleft h2{
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+    }
+    .text_photoleft p{
+    padding-top: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: justify; 
+    line-height: 23px;
+    }
+    .text_photoleft hr{
+    width: 545px;
+    margin-left: 5px;
+    }
+    .photoportrait{
+     width:420px;
+     height: 500px;
+     float: right;
+     }
+     .text_photoright{
+      width: 560px;
+      float: right;
+      text-align: center;
+      margin-right: 40px;
+      margin-top: 40px;
+     }
+     .text_photoright h2{
+     font-size: 28px;
+     letter-spacing: 2px;
+     text-align: center;
+
+     }
+     .text_photoright p{
+     padding-top: 20px;
+     font-size: 20px;
+     letter-spacing: 1px;
+     text-align: justify; 
+     line-height: 23px;
+     }
+     .text_photoright hr{
+     width: 545px;
+     margin-left: 5px;
+     }
+     .photofamily{
+     width:420px;
+     height: 500px;
+     float: left;
+     }
+     .photolovestory{
+     width:420px;
+     height: 500px;
+     float: right; }
+     .photobw{
+     width:420px;
+     height: 500px;
+     float: left;
+     margin-bottom: 40px;
+      }
 }
