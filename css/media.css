@@ -21,9 +21,6 @@
     .formhead{
     font-size: 15px;
     }
-    .message{
-    height: 410px;
-    }
     #hero .slider-holder .bg-drop {
     height: 370px;
     }
@@ -122,10 +119,10 @@ transform: none !important;
 -o-animation: none !important;
 -ms-animation: none !important;
 animation: none !important;
-}   .loader{
+}   .preloader{
     display: none;
     }
-    .loaderArea{
+    .page-loader-circle{
     display: none;
     }
 	.headerwrap h1{
@@ -141,18 +138,6 @@ animation: none !important;
     width: 190px;
     height: 60px;
 	}
-	input{
-	width: 200px;
-	}
-    textarea{
-    width: 200px;
-    }
-    .formhead{
-    font-size: 14px;
-    }
-   .callback{
-    padding: 22% 20%;
-    }
     .desc{
     left: 70%;
     background-color: rgba(0,0,0,.5);
@@ -226,8 +211,60 @@ animation: none !important;
      width: 98%;
      margin-left: 3px;
     }
+    .myphoto{
+    background: url(../img/myphoto.jpg);
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    margin-top: 40px;
+    margin-left: 0;
+    float: left;
+    margin-bottom: 60px;
+   }
+    .myinfo{
+    float: left;
+    margin-top: 70px;
+    margin-right: 0;
+    margin-left: 90px;
+    }
+    .myinfo h4{
+    width: 100%;
+    font-size: 25px;
+    padding-top: 12px;
+    padding-left: 40px;
+    }
+    .myinfo .fa{
+    font-size: 25px;
+    padding-top: 14px;
+    float: left;
+    }
+    #slidebox{
+        display: none;
+    }
 }
-
+@media only screen and (max-width : 650px){
+    .myphoto{
+    width: 300px;
+    height: 400px;
+   }
+   .myinfo{
+    float: left;
+    margin-top: 70px;
+    margin-right: 0;
+    margin-left: 20px;
+    }
+    .myinfo h4{
+    width: 100%;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 40px;
+    }
+    .myinfo .fa{
+    font-size: 20px;
+    padding-top: 14px;
+    float: left;
+    }
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .animated {
@@ -250,10 +287,10 @@ transform: none !important;
 -ms-animation: none !important;
 animation: none !important;
 }
-    .loader{
+    .preloader{
     display: none;
     }
-    .loaderArea{
+    .page-loader-circle{
     display: none;
     }
 	.scrollup{
@@ -296,20 +333,6 @@ animation: none !important;
     background-color: rgba(0,0,0,.5);
     padding-top: 80px;
     padding-right: 295px;
-    }
-    .message{
-    background: url(../img/ms2.jpg) center;
-    height: 400px;
-    }
-    textarea{
-    width: 240px;        
-    }
-    input{
-    width: 240px;
-    }
-    .backms{
-    margin-left: 0;
-    width: 100%;
     }
     .button{
     width:100px;
@@ -425,27 +448,13 @@ animation: none !important;
     .myinfo p{
     padding-left: 21% ;
     }
-    .contactnumb1{
-    padding-left: 21%;
+    .myinfo .fa{
+    display: none;
+    
     } 
-    .contactnumb2{
-    padding-left: 21%;
-    }
     .socialcontact{
-    margin-left: 18%;
-    width: 280px;
+    display: none;
     }
-    .socialcontact li{
-    width: 38px;
-    height: 38px;
-    border: 2px solid #2d2d2d;
-    margin-right: 20px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    }
-    .socialcontact li .fa{
-    font-size: 15px;
-}
     }
 
 /* Custom, iPhone Retina */
@@ -470,10 +479,13 @@ transform: none !important;
 -ms-animation: none !important;
 animation: none !important;
 }   
-    .loader{
+    #slidebox{
     display: none;
     }
-    .loaderArea{
+    .preloader{
+    display: none;
+    }
+    .page-loader-circle{
     display: none;
     }
     .headerwrap{
@@ -492,18 +504,6 @@ animation: none !important;
     .logowrap{
     width: 140px;
     height: 50px;
-    }
-    input{
-    width: 200px;
-    }
-    textarea{
-    width: 200px;
-    }
-    .formhead{
-    font-size: 12px;
-    }
-    .message p{
-    font-size: 10px;
     }
     .desc {
     left: 70%;
@@ -593,38 +593,27 @@ animation: none !important;
     margin-left: 0;
     }
     .myinfo{
-    margin-left: 0;
-    margin-top: 0;
+    float: left;
     margin-right: 0;
+    margin-bottom: 40px;
+    }
+    .myinfo h4{
     width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 0;
     }
-    .myinfo p{
-    padding-left: 20px;
+    .myinfo .fa{
+    display: none;
+
     }
-    .contactnumb1{
-    padding-left: 20px;
-    } 
-    .contactnumb2{
-    padding-left: 20px;
-    }
-    .socialcontact{
-    margin-left: 40px;
-    width: 280px;
-    }
-    .socialcontact li{
-    width: 38px;
-    height: 38px;
-    border: 2px solid #2d2d2d;
-    margin-right: 20px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    }
-    .socialcontact li .fa{
-    font-size: 15px;
-}
 }
 @media only screen and (max-width : 375px){
-    .loader{
+    .preloader{
+    display: none;
+    }
+    .page-loader-circle{
     display: none;
     }
 	.desc {
@@ -638,13 +627,25 @@ animation: none !important;
      padding-top: 13px;
     }
 }
+.myinfo{
+    float: left;
+    margin-right: 0;
+    margin-bottom: 40px;
+    }
+    .myinfo h4{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 0;
+    }
 }
 
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-    
+@media only screen and (max-width : 365px) {
+   
 }
 
 /* Extra Small Devices, Phones */
@@ -664,6 +665,24 @@ animation: none !important;
     .headerwrap{
     margin-top: 60px;
     }
+    .myinfo{
+  float: left;
+  margin-top: 70px;
+  margin-right: 0;
+    margin-left: 90px;
+}
+.myinfo h4{
+  width: 100%;
+  font-size: 25px;
+  text-align: left;
+  padding-top: 12px;
+  padding-left: 40px;
+}
+.myinfo .fa{
+  font-size: 25px;
+  padding-top: 14px;
+  float: left;
+}
 }
 
 /* Large Devices, Wide Screens */
@@ -673,21 +692,6 @@ animation: none !important;
     }
     #hero .slider-holder .bg-drop {
     height: 580px;
-    }
-    .message{
-    background: url(../img/ms3.jpg) no-repeat;
-    height: 550px;
-    }
-    textarea{
-    margin-top: 20px;
-    width: 370px;
-    }
-    input{
-    margin-top: 20px;
-    width: 370px;
-    }
-    .callback{
-    padding: 100px 200px;
     }
     .library a{
     display: inline-block;

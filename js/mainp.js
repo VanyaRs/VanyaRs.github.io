@@ -11,10 +11,16 @@ $(document).ready(function () {
  $("html, body").animate({ scrollTop: 0 }, 600);
  return false;
  });
- $(window).on('load', function () {
-    $preloader = $('.loaderArea'),
-      $loader = $preloader.find('.loader');
-    $loader.fadeOut();
-    $preloader.delay(350).fadeOut('slow');
+ $(window).load(function() {
+    setTimeout(function() {
+      $('.preloader').fadeOut('slow', function() {});
+    }, 500);
+ 
   });
+ $(window).scroll(function(){
+    if  ($(window).scrollTop() > 200)
+        $('#slidebox').animate({'left':'0px'},500);
+        else
+        $('#slidebox').stop(true).animate({'left':'-230px'},500);   
+    });
 })
