@@ -109,6 +109,10 @@ body{
   text-decoration: none;
   color: #2d2d2d;
 }
+#slidebox:hover{
+  box-shadow: 0 0 20px 2px #2d2d2d;
+  transition: all 0.5s linear;
+}
   .centered{
     text-align: center;
   }
